@@ -1,0 +1,97 @@
+{
+  "format": "noxcatalog/1",
+  "rule": "Catalogue officiel. Gratuit : NoxPanel, ses modules, les profils classiques et une sélection de thèmes et d'icônes. Premium possible (achat unique, facultatif, ne verrouille aucune fonction) : profils conçus pour un jeu vidéo (champ game) et packs cosmétiques (kind icons ou theme ; contenus de franchises seulement avec les droits nécessaires). Rien de premium n'est téléchargeable tant que la vente n'est pas ouverte. Construit par scripts/release/prepare-catalog.ps1.",
+  "products": [
+    {
+      "id": "demo-media",
+      "slug": "demo-media",
+      "tier": "free",
+      "status": "available",
+      "name": {
+        "fr": "Démo multimédia",
+        "en": "Media demo",
+        "nl": "Mediademo"
+      },
+      "summary": {
+        "fr": "Profil gratuit : lecture, piste précédente et suivante, coupure du son et volume. Aucun compte requis.",
+        "en": "Free profile: play, previous and next track, mute and volume. No account needed.",
+        "nl": "Gratis profiel: afspelen, vorige en volgende track, dempen en volume. Geen account nodig."
+      },
+      "package": {
+        "version": "1.0.0",
+        "url": "packages/demo-media-1.0.0.noxprofile",
+        "sha256": "9bafb52498547fa57575411151c898cb88f8bae6d6cfc6a0adadb4e434ecd114",
+        "size": 1556,
+        "minNoxPanel": "1.0.0"
+      }
+    },
+    {
+      "id": "noxprofile.dune",
+      "slug": "noxprofile.dune",
+      "tier": "free",
+      "status": "in-development",
+      "name": {
+        "fr": "NoxDune",
+        "en": "NoxDune",
+        "nl": "NoxDune"
+      },
+      "summary": {
+        "fr": "Module de jeu gratuit et facultatif, compatible avec Dune: Awakening — logiciel indépendant non officiel. En préparation, sans date.",
+        "en": "Free optional game module, compatible with Dune: Awakening — independent unofficial software. In preparation, no date.",
+        "nl": "Gratis optionele spelmodule, compatibel met Dune: Awakening — onafhankelijke, onofficiële software. In voorbereiding, zonder datum."
+      },
+      "game": "Dune: Awakening"
+    },
+    {
+      "id": "noxprofile.wowforever",
+      "slug": "noxprofile.wowforever",
+      "tier": "free",
+      "status": "in-development",
+      "name": {
+        "fr": "NoxWoW — Mode Immersion",
+        "en": "NoxWoW — Immersion Mode",
+        "nl": "NoxWoW — Immersion-modus"
+      },
+      "summary": {
+        "fr": "Module de jeu gratuit et facultatif (profil + addon), compatible avec World of Warcraft — logiciel indépendant non officiel. En préparation, sans date.",
+        "en": "Free optional game module (profile + addon), compatible with World of Warcraft — independent unofficial software. In preparation, no date.",
+        "nl": "Gratis optionele spelmodule (profiel + addon), compatibel met World of Warcraft — onafhankelijke, onofficiële software. In voorbereiding, zonder datum."
+      },
+      "game": "World of Warcraft"
+    },
+    {
+      "id": "noxpack.icons",
+      "slug": "noxpack.icons",
+      "tier": "premium",
+      "status": "in-development",
+      "name": {
+        "fr": "Packs d'icônes",
+        "en": "Icon packs",
+        "nl": "Iconenpakketten"
+      },
+      "summary": {
+        "fr": "Prochainement : collections d'icônes originales sur des univers et ambiances variés. Achat facultatif et cosmétique, sans aucune fonction verrouillée ; les icônes gratuites restent incluses.",
+        "en": "Coming soon: original icon collections in varied styles and moods. Optional cosmetic purchase that locks no feature; free icons stay included.",
+        "nl": "Binnenkort: originele iconencollecties in uiteenlopende stijlen en sferen. Optionele cosmetische aankoop die geen functie vergrendelt; gratis iconen blijven inbegrepen."
+      },
+      "kind": "icons"
+    },
+    {
+      "id": "noxpack.themes",
+      "slug": "noxpack.themes",
+      "tier": "premium",
+      "status": "in-development",
+      "name": {
+        "fr": "Thèmes complets",
+        "en": "Complete themes",
+        "nl": "Complete thema's"
+      },
+      "summary": {
+        "fr": "Prochainement : ensembles coordonnés d'icônes, fonds, couleurs et boutons, avec aperçu avant installation. Achat facultatif et cosmétique ; vos commandes et personnalisations sont conservées et les thèmes gratuits restent inclus.",
+        "en": "Coming soon: coordinated sets of icons, backgrounds, colours and buttons, with a preview before installing. Optional cosmetic purchase; your commands and customisations are kept and free themes stay included.",
+        "nl": "Binnenkort: gecoördineerde sets van iconen, achtergronden, kleuren en knoppen, met voorbeeld vóór installatie. Optionele cosmetische aankoop; je commando's en aanpassingen blijven behouden en gratis thema's blijven inbegrepen."
+      },
+      "kind": "theme"
+    }
+  ]
+}
