@@ -20,8 +20,8 @@
       "package": {
         "version": "1.0.0",
         "url": "packages/demo-media-1.0.0.noxprofile",
-        "sha256": "9bafb52498547fa57575411151c898cb88f8bae6d6cfc6a0adadb4e434ecd114",
-        "size": 1556,
+        "sha256": "7a23e874ac8dbfc40cc57d366607b29677d6f31b31a3c3ae3f977262211e47b6",
+        "size": 1558,
         "minNoxPanel": "1.0.0"
       }
     },
@@ -46,18 +46,25 @@
       "id": "noxprofile.wowforever",
       "slug": "noxprofile.wowforever",
       "tier": "free",
-      "status": "in-development",
+      "status": "available",
       "name": {
-        "fr": "NoxWoW — Mode Immersion",
-        "en": "NoxWoW — Immersion Mode",
-        "nl": "NoxWoW — Immersion-modus"
+        "fr": "WoW Xplorator",
+        "en": "WoW Xplorator",
+        "nl": "WoW Xplorator"
       },
       "summary": {
-        "fr": "Module de jeu gratuit et facultatif (profil + addon), compatible avec World of Warcraft — logiciel indépendant non officiel. En préparation, sans date.",
-        "en": "Free optional game module (profile + addon), compatible with World of Warcraft — independent unofficial software. In preparation, no date.",
-        "nl": "Gratis optionele spelmodule (profiel + addon), compatibel met World of Warcraft — onafhankelijke, onofficiële software. In voorbereiding, zonder datum."
+        "fr": "WoW Xplorator — Bêta gratuite : sept pages, mode Immersion, profil et notre addon 2.18.0. Addons tiers facultatifs non inclus. Mise à jour de NoxPanel requise.",
+        "en": "WoW Xplorator — Free beta: seven pages, Immersion Mode, profile and our addon 2.18.0. Optional third-party addons not included. NoxPanel update required.",
+        "nl": "WoW Xplorator — Gratis bèta: zeven pagina’s, immersiemodus, profiel en onze addon 2.18.0. Optionele externe addons niet inbegrepen. NoxPanel-update vereist."
       },
-      "game": "World of Warcraft"
+      "game": "World of Warcraft",
+      "package": {
+        "version": "1.17.0",
+        "url": "packages/noxprofile.wowforever-1.17.0.noxprofile",
+        "sha256": "512ebae0523591e60de56d10ddaf0469b243061c4df4f32c9e96e47d92036680",
+        "size": 166444,
+        "minNoxPanel": "1.0.1"
+      }
     },
     {
       "id": "noxpack.icons",
